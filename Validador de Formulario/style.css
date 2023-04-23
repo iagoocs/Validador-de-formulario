@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.screen {
+    display: flex;
+    height: 100vh;
+}
+
+.leftside {
+    flex: 1;
+}
+
+.leftside img {
+    max-width: 500px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside {
+    width: 400px;
+    background-color: #ddd;
+    padding: 50px;
+}
+
+.rightside label {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightside input {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightside h1 {
+    font-family: 'Noto Serif Khojki', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.rightside input {
+    outline: 0;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.error {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
